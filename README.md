@@ -6,4 +6,3 @@ it includes:
 (2) FaceDetection
 (3) FaceMesh
 (4) PoseEstimation
-(5) objectTracking
