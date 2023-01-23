@@ -1,0 +1,23 @@
+(1) cv2.putText()
+Parameters:-
+img	        Image.
+text	    Text string to be drawn.
+org	        Bottom-left corner of the text string in the image.
+fontFace	Font type, see HersheyFonts.
+fontScale	Font scale factor that is multiplied by the font-specific base size.
+color	    Text color.
+thickness	Thickness of the lines used to draw a text.
+
+example:-
+#cv2.putText(img,str(int(fps)),(10,50),cv2.FONT_HERSHEY_PLAIN,3,(255,255,0),3)
+
+(2) cv2.circle()
+Parameters:-
+img	        Image where the circle is drawn.
+center	    Center of the circle.
+radius	    Radius of the circle.
+color	    Circle color.
+thickness	Thickness of the circle outline, if positive. Negative values, like FILLED, mean that a filled circle is to be drawn
+
+example:-
+#cv2.circle(img,(cx,cy),25,(255,0,255),cv2.FILLED)
