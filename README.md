@@ -7,3 +7,4 @@ Applications of computer vision using light weight cross-platform framework for 
 (2) FaceDetection
 (3) FaceMesh
 (4) PoseEstimation
+(5) FingerCounter
